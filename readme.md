@@ -1,5 +1,12 @@
 # Bus Schedules
 
+##
+Repository and Code Quality
+
+Project Repository: https://github.com/korobocheck/BusSchedule
+SonarCloud Code Quality: https://sonarcloud.io/summary/new_code?id=korobocheck_BusSchedule
+
+    
 **Bus Schedules** is a command-line interface (CLI) program that allows users to manage bus schedules using dynamic memory allocation. This system supports basic CRUD operations and validates input fields like the bus number.
 
 ## Features:
@@ -9,7 +16,15 @@
 - Developed with **Google C++ Style Guide** and **C++ Core Guidelines** in mind.
 
 ## Project Structure:
-Bus_Schedules/ ├── src/ │ ├── cpp/ # C++ source files │ └── include/ # Header files ├── obj/ # Compiled object files ├── bin/ # Compiled binary files ├── Makefile # Build script for the project └── README.md # Project documentation
+Bus_Schedules/
+├── src/                # C++ source files
+│   ├── cpp/            # Source files (.cpp)
+│   └── include/        # Header files (.h)
+├── obj/                # Compiled object files
+├── bin/                # Compiled binary files
+├── Makefile            # Build script for the project
+└── readme.md           # Project documentation
+
 
 ## Prerequisites:
 - **C++17** or later.
