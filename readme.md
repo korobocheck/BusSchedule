@@ -16,18 +16,6 @@ SonarCloud Code Quality: https://sonarcloud.io/summary/new_code?id=korobocheck_B
 - **Dynamic memory allocation** (manages schedules without using STL containers like vectors).
 - Developed with **Google C++ Style Guide** and **C++ Core Guidelines** in mind.
 
-## Project Structure:
-Project Structure:
-Bus_Schedules/
-├── src/                # C++ source files
-│   ├── cpp/            # Source files (.cpp)
-│   └── include/        # Header files (.h)
-├── obj/                # Compiled object files
-├── bin/                # Compiled binary files
-├── Makefile            # Build script for the project
-└── README.md           # Project documentation
-
-
 
 ## Prerequisites:
 - **C++17** or later.
