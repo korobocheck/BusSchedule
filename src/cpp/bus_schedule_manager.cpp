@@ -87,7 +87,7 @@ void BusScheduleManager::AddSchedule() {
 }
 
 // Update an existing schedule
-void BusScheduleManager::UpdateSchedule(int index) {
+void BusScheduleManager::UpdateSchedule(int index) const{
     if (index >= 0 && index < size_) {
         schedules_[index]->UpdateSchedule();
     } else {

@@ -12,7 +12,7 @@ public:
     BusScheduleManager& operator=(const BusScheduleManager& other);  // Assignment operator
 
     void AddSchedule();
-    void UpdateSchedule(int index);
+    void UpdateSchedule(int index) const;
     void DeleteSchedule(int index);
     void DisplaySchedules() const;
 
