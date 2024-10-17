@@ -14,6 +14,7 @@ SonarCloud Code Quality: https://sonarcloud.io/summary/new_code?id=korobocheck_B
 - **Add, View, Update, and Delete** bus schedules.
 - **Bus number validation** (must start with a digit, allows alphanumeric).
 - **Dynamic memory allocation** (manages schedules without using STL containers like vectors).
+- Database for storing schedules.
 - Developed with **Google C++ Style Guide** and **C++ Core Guidelines** in mind.
 
 
